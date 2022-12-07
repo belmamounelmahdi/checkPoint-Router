@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+.navbar {
+  height: 50px;
+  box-shadow: 0 0 10px #a7a7a5;
+}
+.navbar ul {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.navbar ul li {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.home .landing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./assets/slide01.jpg);
+  min-height: calc(100vh - 72px);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.home .landing button {
+  background-color: rgb(31, 77, 177);
+}
+.services nav {
+  display: flex;
+  justify-content: center;
+}
+
+.services nav a {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.services h1 {
+  text-align: center;
+}
+
+.design,
+.marketing {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.design .card, 
+.marketing .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 200px;
+  height: 300px;
+  padding: 20px;
+  border: 1px solid gray;
+  border-radius: 25px;
+  box-shadow: 0 0 10px gray;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.design .card img,
+.marketing .card img {
+  width: 100px;
+}
+.icone-social {
+  width: 30px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 10px;
+  left: 45%;
+}
+
+.footer a {
+  margin-left: 10px;
+  margin-right: 10px;
+}
